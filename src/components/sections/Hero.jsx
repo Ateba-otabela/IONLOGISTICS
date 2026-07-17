@@ -35,7 +35,17 @@ export default function LogisticsHeroCarousel() {
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden bg-gradient-to-b from-blue-50/60 to-white">
+    <section className="relative mt-24 w-full overflow-hidden">
+      {/* Background image */}
+      <img
+        src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&h=1080&fit=crop"
+        alt="Logistics warehouse background"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/60 to-slate-950/40" />
+
+      <div className="relative z-10">
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${index * 100}%)` }}
@@ -46,10 +56,10 @@ export default function LogisticsHeroCarousel() {
             className="w-full flex-shrink-0 grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24"
           >
             <div>
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+              <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
                 {slide.heading}
               </h1>
-              <p className="text-lg text-gray-600 mb-8 max-w-lg">
+              <p className="text-lg text-slate-200 mb-8 max-w-lg">
                 {slide.text}
               </p>
               <button className="bg-blue-600 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-blue-700 transition shadow-sm">
@@ -57,7 +67,7 @@ export default function LogisticsHeroCarousel() {
               </button>
             </div>
 
-            <div className="relative flex justify-center items-center h-[380px] md:h-[420px]">
+            <div className="relative flex justify-center items-center h-[320px] sm:h-[380px] md:h-[420px] overflow-hidden rounded-3xl">
               <div className="absolute top-0 left-0 md:left-8 bg-white border border-gray-200 rounded-xl shadow-lg px-5 py-4 max-w-[260px] z-10">
                 <p className="text-sm text-gray-700 font-semibold">
                   Discover and save with the best deals
@@ -84,10 +94,11 @@ export default function LogisticsHeroCarousel() {
             onClick={() => setIndex(i)}
             aria-label={`Go to slide ${i + 1}`}
             className={`h-2.5 rounded-full transition-all duration-300 ${
-              i === index ? "w-8 bg-blue-600" : "w-2.5 bg-gray-300"
+              i === index ? "w-8 bg-blue-600" : "w-2.5 bg-white/50"
             }`}
           />
         ))}
+      </div>
       </div>
     </section>
   );
