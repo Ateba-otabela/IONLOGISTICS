@@ -11,14 +11,14 @@ const posts = [
   },
   {
     date: "April 30, 2025",
-    title: "SwiftHaul – Online Quotes",
+    title: "IONLOGISTICS – Online Quotes",
     image:
       "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&h=400&fit=crop",
     category: "FREIGHT FORWARDER",
   },
   {
     date: "March 18, 2024",
-    title: "SwiftHaul – Pharmaceutical Logistics, Pharma USA 2024",
+    title: "IONLOGISTICS – Pharmaceutical Logistics, Pharma USA 2024",
     image:
       "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=400&fit=crop",
     category: "IATA",
@@ -32,7 +32,7 @@ const posts = [
   },
   {
     date: "December 15, 2023",
-    title: "SwiftHaul – Free Transport for Relief Cargo",
+    title: "IONLOGISTICS – Free Transport for Relief Cargo",
     image:
       "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&h=400&fit=crop",
     category: "TRANSPORTATION OF LUXURY CARS",
