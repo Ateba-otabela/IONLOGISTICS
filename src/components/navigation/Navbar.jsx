@@ -62,7 +62,7 @@ export default function Navbar() {
               <Link
                 key={item.label}
                 to={item.to}
-                className="text-gray-600 hover:text-blue-600 transition font-medium text-sm xl:text-base"
+                className="text-gray-600 hover:text-blue-600 transition font-medium text-xs sm:text-sm xl:text-sm"
                 onClick={closeMenu}
               >
                 {item.label}
@@ -87,12 +87,12 @@ export default function Navbar() {
 
             <Link
               to="/track-shipment"
-              className="border border-blue-500 text-blue-600 px-4 py-2.5 xl:px-6 xl:py-3 rounded-xl font-semibold text-sm xl:text-base hover:bg-blue-600 hover:text-white transition whitespace-nowrap"
+              className="border border-blue-500 text-blue-600 px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-blue-600 hover:text-white transition whitespace-nowrap"
             >
               Track Shipment
             </Link>
 
-            <button className="bg-blue-600 text-white px-4 py-2.5 xl:px-6 xl:py-3 rounded-xl font-semibold text-sm xl:text-base hover:bg-blue-700 transition shadow-lg whitespace-nowrap">
+            <button className="bg-blue-600 text-white px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-blue-700 transition shadow-lg whitespace-nowrap">
               Request Quote
             </button>
 
