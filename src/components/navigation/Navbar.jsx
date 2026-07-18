@@ -26,9 +26,9 @@ export default function Navbar() {
   const links = [
     { label: "Services", to: "/services" },
     { label: "Industries", to: "/industries" },
-    { label: "Pricing", to: "/pricing" },
-    { label: "Fleet", to: "/fleet" },
     { label: "About", to: "/about" },
+    { label: "FAQ", to: "/faq" },
+    { label: "Contact", to: "/contact" },
   ];
 
   const closeMenu = () => setOpen(false);
