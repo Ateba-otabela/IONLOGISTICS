@@ -54,7 +54,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10">
             {columns.map((col) => (
               <div key={col.heading}>
-                <h4 className="text-white font-bold text-lg mb-4">
+                <h4 className="text-cyan-300 font-semibold text-xl tracking-[0.2em] uppercase mb-5">
                   {col.heading}
                 </h4>
                 <ul className="space-y-3">
@@ -62,7 +62,7 @@ export default function Footer() {
                     <li key={link}>
                       <a
                         href="#"
-                        className="text-blue-100/90 hover:text-white hover:underline transition"
+                        className="text-slate-300/90 hover:text-white hover:underline transition"
                       >
                         {link}
                       </a>
