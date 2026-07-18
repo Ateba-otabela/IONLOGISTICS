@@ -5,6 +5,7 @@ import TrackShipment from "./pages/public/TrackShipment";
 import Services from "./pages/public/Services";
 import Industries from "./pages/public/Industries";
 import FAQ from "./pages/public/FAQs";
+import Contact from "./pages/public/Contact";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/track-shipment" element={<TrackShipment />} />
       <Route path="/industries" element={<Industries />} />
       <Route path="/faq" element={<FAQ />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }
