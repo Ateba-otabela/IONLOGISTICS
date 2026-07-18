@@ -22,9 +22,7 @@ export default function PartnershipSection() {
   return (
     
     <>
-    <h1 className="text-4xl font-bold text-center mt-12 sm:mt-20 mb-10 text-gray-900">
-        Our Services
-      </h1>
+  
       <Navbar/>
       <div className="mt-16">
         <ServicesHero />

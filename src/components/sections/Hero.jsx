@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import LogoScrollStrip from "../../components/sections/LogoScrollStrip";
 
 const slides = [
   {
@@ -35,7 +36,8 @@ export default function LogisticsHeroCarousel() {
   }, []);
 
   return (
-    <section className="relative mt-24 w-full overflow-hidden">
+    <>
+  <section className="relative mt-24 w-full overflow-hidden">
       {/* Background image */}
       <img
         src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&h=1080&fit=crop"
@@ -101,5 +103,8 @@ export default function LogisticsHeroCarousel() {
       </div>
       </div>
     </section>
+    <LogoScrollStrip className="md:mt-32" />
+    
+    </>
   );
 }
