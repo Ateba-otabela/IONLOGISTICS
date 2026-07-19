@@ -1,101 +1,155 @@
-// Original, fictional logo marks — not based on or resembling any real company's branding.
+// Brand marks for the ION Trust Global group of companies.
 
-function MarkNorthwind() {
+function MarkIonTrustGlobal() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <path d="M4 22 L14 6 L24 22" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M9 22 L14 13 L19 22" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.5" />
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <circle cx="15" cy="15" r="12" stroke="#0F2A4A" strokeWidth="2" />
+      <path
+        d="M3 15 H27 M15 3 C10 8 10 22 15 27 C20 22 20 8 15 3 Z"
+        stroke="#0F2A4A"
+        strokeWidth="1.4"
+        fill="none"
+      />
+      <circle cx="15" cy="6" r="2.2" fill="#C9962C" />
     </svg>
   );
 }
 
-function MarkVertex() {
+function MarkBuy2Africa() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <polygon points="14,3 25,10 25,18 14,25 3,18 3,10" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
-      <circle cx="14" cy="14" r="3" fill="currentColor" />
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <path
+        d="M3 5 H7 L9.5 19 H23"
+        stroke="#0F2A4A"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.5 19 L24 19 L26 9 H7.5"
+        stroke="#0F2A4A"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 9 C14 9 16 11 16 14 C16 17 13 18 13 21 C13 18 11 17 11 14 C11 11 14 9 14 9 Z"
+        fill="#2F8F4E"
+      />
+      <circle cx="11.5" cy="24" r="1.7" fill="#0F2A4A" />
+      <circle cx="21.5" cy="24" r="1.7" fill="#E8792A" />
     </svg>
   );
 }
 
-function MarkBluecrate() {
+function MarkIonLogistics() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <rect x="4" y="4" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="2.2" />
-      <path d="M4 11 H24 M11 4 V24" stroke="currentColor" strokeWidth="2.2" />
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <path
+        d="M3 20 V11 H16 V20"
+        stroke="#1E63C7"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16 14 H21 L25 18 V20 H16"
+        stroke="#1E63C7"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <circle cx="9" cy="22" r="2" fill="#1E63C7" />
+      <circle cx="21" cy="22" r="2" fill="#1E63C7" />
+      <path
+        d="M4 6 C7 4 11 4 14 6"
+        stroke="#1E63C7"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        opacity="0.6"
+      />
     </svg>
   );
 }
 
-function MarkSolstice() {
+function MarkIonProperties() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <circle cx="14" cy="14" r="6" stroke="currentColor" strokeWidth="2.2" />
-      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
-        <line
-          key={deg}
-          x1="14"
-          y1="3"
-          x2="14"
-          y2="6.5"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-          transform={`rotate(${deg} 14 14)`}
-        />
-      ))}
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <path
+        d="M5 26 V13 L11 8 V26"
+        stroke="#C9962C"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11 26 V6 L19 3 V26"
+        stroke="#0F2A4A"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <path d="M3 26 H27" stroke="#0F2A4A" strokeWidth="2" strokeLinecap="round" />
+      <rect x="13.5" y="9" width="2.5" height="3" fill="#0F2A4A" />
+      <rect x="13.5" y="14" width="2.5" height="3" fill="#0F2A4A" />
     </svg>
   );
 }
 
-function MarkCobalt() {
+function MarkIonVentures() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <path d="M14 3 L24 14 L14 25 L4 14 Z" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
-      <path d="M14 9 L19 14 L14 19 L9 14 Z" fill="currentColor" />
-    </svg>
-  );
-}
-
-function MarkMeridian() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <circle cx="14" cy="14" r="10" stroke="currentColor" strokeWidth="2.2" />
-      <path d="M4 14 H24" stroke="currentColor" strokeWidth="2.2" />
-      <path d="M14 4 C 9 9, 9 19, 14 24 C 19 19, 19 9, 14 4 Z" stroke="currentColor" strokeWidth="1.6" />
-    </svg>
-  );
-}
-
-function MarkFerrum() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <rect x="5" y="12" width="18" height="8" rx="1.5" stroke="currentColor" strokeWidth="2.2" />
-      <path d="M9 12 V7 H19 V12" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
-      <circle cx="9" cy="22" r="1.8" fill="currentColor" />
-      <circle cx="19" cy="22" r="1.8" fill="currentColor" />
-    </svg>
-  );
-}
-
-function MarkOrbita() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <circle cx="14" cy="14" r="4" fill="currentColor" />
-      <ellipse cx="14" cy="14" rx="11" ry="5" stroke="currentColor" strokeWidth="2" transform="rotate(-20 14 14)" />
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <path
+        d="M4 8 L11 22 L15 12"
+        stroke="#0F2A4A"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11 22 L18 6 L26 6"
+        stroke="#2F8F4E"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M26 6 L21 4 M26 6 L24 11"
+        stroke="#2F8F4E"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
 
 const BRANDS = [
-  { name: "Northwind", Mark: MarkNorthwind },
-  { name: "Vertex Retail", Mark: MarkVertex },
-  { name: "Bluecrate", Mark: MarkBluecrate },
-  { name: "Solstice Foods", Mark: MarkSolstice },
-  { name: "Cobalt Tech", Mark: MarkCobalt },
-  { name: "Meridian Apparel", Mark: MarkMeridian },
-  { name: "Ferrum Industries", Mark: MarkFerrum },
-  { name: "Orbita", Mark: MarkOrbita },
+  {
+    name: "IONTRUST GLOBAL",
+    tagline: "Connecting Opportunities, Building Trust",
+    Mark: MarkIonTrustGlobal,
+    color: "text-slate-800",
+  },
+  {
+    name: "Buy2Africa",
+    tagline: "Buy Local. Sell Global.",
+    Mark: MarkBuy2Africa,
+    color: "text-slate-800",
+  },
+  {
+    name: "ION Logistics",
+    tagline: "Delivering Trust, Every Time",
+    Mark: MarkIonLogistics,
+    color: "text-slate-800",
+  },
+  {
+    name: "ION Properties",
+    tagline: "Find. Invest. Thrive.",
+    Mark: MarkIonProperties,
+    color: "text-slate-800",
+  },
+  {
+    name: "ION Ventures",
+    tagline: "Investing in Ideas. Building Futures.",
+    Mark: MarkIonVentures,
+    color: "text-slate-800",
+  },
 ];
 
 export default function LogoScrollStrip() {
@@ -105,20 +159,26 @@ export default function LogoScrollStrip() {
   return (
     <div className="w-full bg-slate-50 border-b border-slate-100 py-7 overflow-hidden">
       <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-slate-400 mb-5">
-        Trusted by teams shipping at scale
+        Part of the ION Trust Global group of companies
       </p>
 
       <div className="relative w-full overflow-hidden">
-        <div className="flex w-max animate-logo-scroll gap-14 px-8">
-          {items.map(({ name, Mark }, i) => (
+        <div className="flex w-max animate-logo-scroll gap-16 px-8">
+          {items.map(({ name, tagline, Mark, color }, i) => (
             <div
               key={`${name}-${i}`}
-              className="flex shrink-0 items-center gap-2.5 text-slate-400 hover:text-slate-600 transition-colors select-none"
+              className="flex shrink-0 items-center gap-3 select-none"
+              title={tagline}
             >
               <Mark />
-              <span className="text-lg font-bold tracking-tight whitespace-nowrap">
-                {name}
-              </span>
+              <div className="flex flex-col leading-tight">
+                <span className={`text-base font-bold tracking-tight whitespace-nowrap ${color}`}>
+                  {name}
+                </span>
+                <span className="text-[10px] text-slate-400 whitespace-nowrap">
+                  {tagline}
+                </span>
+              </div>
             </div>
           ))}
         </div>
@@ -134,7 +194,7 @@ export default function LogoScrollStrip() {
           to { transform: translateX(-50%); }
         }
         .animate-logo-scroll {
-          animation: logo-scroll 28s linear infinite;
+          animation: logo-scroll 26s linear infinite;
         }
       `}</style>
     </div>
