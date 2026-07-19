@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 import Button from '@/components/ui/Button';
+import logo from '../../assets/images/logo.png';
 
 function PublicNavbar() {
   return (
     <header className="border-b border-slate-200 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link to="/" className="text-xl font-bold text-primary">IONLOGISTICS</Link>
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="IONLOGISTICS" className="h-8 w-auto" />
+          <span className="text-xl font-bold text-primary">IONLOGISTICS</span>
+        </Link>
         <nav className="hidden items-center gap-6 md:flex text-slate-600">
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>

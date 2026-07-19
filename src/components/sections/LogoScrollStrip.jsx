@@ -1,4 +1,5 @@
 // Brand marks for the ION Trust Global group of companies.
+import logo from "../../assets/images/logo.png";
 
 function MarkIonTrustGlobal() {
   return (
@@ -43,31 +44,7 @@ function MarkBuy2Africa() {
 }
 
 function MarkIonLogistics() {
-  return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-      <path
-        d="M3 20 V11 H16 V20"
-        stroke="#1E63C7"
-        strokeWidth="2"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M16 14 H21 L25 18 V20 H16"
-        stroke="#1E63C7"
-        strokeWidth="2"
-        strokeLinejoin="round"
-      />
-      <circle cx="9" cy="22" r="2" fill="#1E63C7" />
-      <circle cx="21" cy="22" r="2" fill="#1E63C7" />
-      <path
-        d="M4 6 C7 4 11 4 14 6"
-        stroke="#1E63C7"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        opacity="0.6"
-      />
-    </svg>
-  );
+  return <img src={logo} alt="ION Logistics" className="w-8 h-8 object-contain" />;
 }
 
 function MarkIonProperties() {

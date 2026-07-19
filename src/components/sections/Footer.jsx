@@ -1,4 +1,5 @@
 import { Truck } from "lucide-react";
+import logo from "../../assets/images/logo.png";
 
 const columns = [
   {
@@ -40,11 +41,11 @@ export default function Footer() {
           {/* logo */}
           <div className="flex flex-col items-center mb-16">
             <div className="flex items-center gap-2">
-              <Truck className="w-9 h-9 text-white" />
-              <span className="text-white text-4xl font-bold">
-                IONLOGISTICS
-              </span>
-            </div>
+                <img src={logo} alt="IONLOGISTICS" className="w-9 h-9 object-contain" />
+                <span className="text-white text-4xl font-bold">
+                  IONLOGISTICS
+                </span>
+              </div>
             <span className="text-blue-300 text-sm font-medium tracking-wide -mt-1 self-end mr-1">
               logistics
             </span>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 
 import {
   Menu,
@@ -48,10 +49,7 @@ export default function Navbar() {
           {/* Logo */}
 
           <Link to="/" className="flex shrink-0 items-center" onClick={closeMenu}>
-            <div className="w-9 h-9 sm:w-10 sm:h-10 lg:w-11 lg:h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white">
-              <Compass size={20} strokeWidth={2.5} className="sm:hidden" />
-              <Compass size={22} strokeWidth={2.5} className="hidden sm:block" />
-            </div>
+            <img src={logo} alt="IONLOGISTICS" className="w-9 h-9 sm:w-10 sm:h-10 lg:w-11 lg:h-11 rounded-xl object-contain" />
           </Link>
 
           {/* Desktop Menu */}

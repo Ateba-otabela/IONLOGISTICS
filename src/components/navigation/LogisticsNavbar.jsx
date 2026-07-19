@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   Menu,
   X,
@@ -6,6 +7,7 @@ import {
   Globe,
   Activity,
 } from "lucide-react";
+import logo from "../../assets/images/logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -43,19 +45,12 @@ export default function Navbar() {
 
           {/* Logo */}
 
-          <div className="flex items-center gap-3 cursor-pointer">
-
-            <div className="w-11 h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white">
-
-              <Activity size={22} strokeWidth={2.5} />
-
-            </div>
-
+          <Link to="/" className="flex items-center gap-3 cursor-pointer">
+            <img src={logo} alt="IONLOGISTICS" className="w-11 h-11 rounded-xl object-contain" />
             <span className="text-3xl font-extrabold text-blue-600 tracking-tight">
               IONLOGISTICS
             </span>
-
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
 
