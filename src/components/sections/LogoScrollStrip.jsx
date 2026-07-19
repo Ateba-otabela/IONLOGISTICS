@@ -44,7 +44,7 @@ function MarkBuy2Africa() {
 }
 
 function MarkIonLogistics() {
-  return <img src={logo} alt="ION Logistics" className="w-8 h-8 object-contain" />;
+  return <img src={logo} alt="ION Logistics" className="w-10 h-10 object-contain mix-blend-multiply" />;
 }
 
 function MarkIonProperties() {

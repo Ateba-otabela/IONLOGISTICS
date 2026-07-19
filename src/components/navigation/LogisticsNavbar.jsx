@@ -46,7 +46,7 @@ export default function Navbar() {
           {/* Logo */}
 
           <Link to="/" className="flex items-center gap-3 cursor-pointer">
-            <img src={logo} alt="IONLOGISTICS" className="w-11 h-11 rounded-xl object-contain" />
+            <img src={logo} alt="IONLOGISTICS" className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain mix-blend-multiply" />
             <span className="text-3xl font-extrabold text-blue-600 tracking-tight">
               IONLOGISTICS
             </span>

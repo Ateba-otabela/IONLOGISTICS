@@ -41,7 +41,7 @@ export default function Footer() {
           {/* logo */}
           <div className="flex flex-col items-center mb-16">
             <div className="flex items-center gap-2">
-                <img src={logo} alt="IONLOGISTICS" className="w-9 h-9 object-contain" />
+                <img src={logo} alt="IONLOGISTICS" className="w-12 h-12 object-contain mix-blend-multiply" />
                 <span className="text-white text-4xl font-bold">
                   IONLOGISTICS
                 </span>

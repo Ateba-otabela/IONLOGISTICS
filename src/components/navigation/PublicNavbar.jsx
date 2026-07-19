@@ -7,7 +7,7 @@ function PublicNavbar() {
     <header className="border-b border-slate-200 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="IONLOGISTICS" className="h-8 w-auto" />
+          <img src={logo} alt="IONLOGISTICS" className="h-10 w-auto mix-blend-multiply" />
           <span className="text-xl font-bold text-primary">IONLOGISTICS</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex text-slate-600">
