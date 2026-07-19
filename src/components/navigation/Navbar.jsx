@@ -49,7 +49,7 @@ export default function Navbar() {
           {/* Logo */}
 
           <Link to="/" className="flex shrink-0 items-center" onClick={closeMenu}>
-            <img src={logo} alt="IONLOGISTICS" className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain mix-blend-multiply" />
+            <img src={logo} alt="IONLOGISTICS" className="w-24 h-24 sm:w-20 sm:h-20 lg:w-33 lg:h-33 object-contain mix-blend-multiply" />
           </Link>
 
           {/* Desktop Menu */}

@@ -40,15 +40,19 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto relative">
           {/* logo */}
           <div className="flex flex-col items-center mb-16">
-            <div className="flex items-center gap-2">
-                <img src={logo} alt="IONLOGISTICS" className="w-12 h-12 object-contain mix-blend-multiply" />
-                <span className="text-white text-4xl font-bold">
-                  IONLOGISTICS
+            <div className="flex items-center gap-3">
+              <img
+                src={logo}
+                alt="IONLOGISTICS"
+                className="w-40 h-40 md:w-[7.5rem] md:h-[7.5rem] lg:w-40 lg:h-40 object-contain mix-blend-multiply"
+              />
+              <div className="flex items-baseline">
+                <span className="text-white text-4xl font-bold">ION</span>
+                <span className="text-blue-300 text-xs font-medium tracking-wide translate-y-1.5 ml-0.5">
+                  logistics
                 </span>
               </div>
-            <span className="text-blue-300 text-sm font-medium tracking-wide -mt-1 self-end mr-1">
-              logistics
-            </span>
+            </div>
           </div>
 
           {/* link columns */}
