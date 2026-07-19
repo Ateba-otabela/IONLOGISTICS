@@ -37,7 +37,7 @@ export default function Testimonials() {
 
           <div>
 
-            <span className="uppercase tracking-[4px] text-blue-600 font-semibold">
+            <span className="uppercase tracking-[4px] text-[#1B2A4A] font-semibold">
               Testimonials
             </span>
 
@@ -62,7 +62,7 @@ export default function Testimonials() {
                 key={`${item.name}-${index}`}
                 className="snap-start rounded-3xl border border-gray-200 bg-white p-8 shadow-sm"
               >
-                <Quote className="mb-6 text-blue-600" size={42} />
+                <Quote className="mb-6 text-[#1B2A4A]" size={42} />
 
                 <p className="leading-8 text-gray-600">"{item.review}"</p>
 
@@ -87,7 +87,7 @@ export default function Testimonials() {
                   <div className="ml-4">
                     <h4 className="text-lg font-bold">{item.name}</h4>
                     <p className="text-sm text-gray-500">{item.position}</p>
-                    <span className="text-sm font-semibold text-blue-600">
+                    <span className="text-sm font-semibold text-[#1B2A4A]">
                       {item.company}
                     </span>
                   </div>

@@ -27,12 +27,12 @@ const columns = [
 export default function Footer() {
   return (
     <footer className="relative bg-white">
-      <div className="relative bg-blue-950 pt-24 pb-14 px-6">
+      <div className="relative bg-[#1B2A4A] pt-24 pb-14 px-6">
         {/* curved top edge - arches upward in the center */}
         <svg
           viewBox="0 0 1440 100"
           preserveAspectRatio="none"
-          className="absolute -top-16 md:-top-20 left-0 w-full h-16 md:h-20 text-blue-950"
+          className="absolute -top-16 md:-top-20 left-0 w-full h-16 md:h-20 text-[#1B2A4A]"
         >
           <path d="M0,100 L0,50 Q720,0 1440,50 L1440,100 Z" fill="currentColor" />
         </svg>
@@ -48,7 +48,7 @@ export default function Footer() {
               />
               <div className="flex items-baseline">
                 <span className="text-white text-4xl font-bold">ION</span>
-                <span className="text-blue-300 text-xs font-medium tracking-wide translate-y-1.5 ml-0.5">
+                <span className="text-[#1B2A4A] text-xs font-medium tracking-wide translate-y-1.5 ml-0.5">
                   logistics
                 </span>
               </div>

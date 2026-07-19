@@ -60,7 +60,7 @@ export default function Navbar() {
               <Link
                 key={item.label}
                 to={item.to}
-                className="text-gray-600 hover:text-blue-600 transition font-medium text-xs sm:text-sm xl:text-sm"
+                className="text-gray-600 hover:text-[#1B2A4A] transition font-medium text-xs sm:text-sm xl:text-sm"
                 onClick={closeMenu}
               >
                 {item.label}
@@ -73,11 +73,11 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center gap-4 xl:gap-6">
 
-            <button className="hover:text-blue-600 transition" aria-label="Search">
+            <button className="hover:text-[#1B2A4A] transition" aria-label="Search">
               <Search size={20} />
             </button>
 
-            <button className="hover:text-blue-600 transition" aria-label="Language">
+            <button className="hover:text-[#1B2A4A] transition" aria-label="Language">
               <Globe size={20} />
             </button>
 
@@ -85,12 +85,12 @@ export default function Navbar() {
 
             <Link
               to="/track-shipment"
-              className="border border-blue-500 text-blue-600 px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-blue-600 hover:text-white transition whitespace-nowrap"
+              className="border border-[#1B2A4A] text-[#1B2A4A] px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-[#1B2A4A] hover:text-white transition whitespace-nowrap"
             >
               Track Shipment
             </Link>
 
-            <button className="bg-blue-600 text-white px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-blue-700 transition shadow-lg whitespace-nowrap">
+            <button className="bg-[#1B2A4A] text-white px-3 py-2 xl:px-4 xl:py-2.5 rounded-lg font-semibold text-xs sm:text-sm hover:bg-[#1B2A4A] transition shadow-lg whitespace-nowrap">
               Request Quote
             </button>
 
@@ -134,12 +134,12 @@ export default function Navbar() {
           <div className="p-6 space-y-4">
 
           <Link to="/track-shipment" onClick={closeMenu}>
-            <button className="w-full border border-blue-600 py-3 rounded-xl text-blue-600 font-semibold">
+            <button className="w-full border border-[#1B2A4A] py-3 rounded-xl text-[#1B2A4A] font-semibold">
               Track Shipment
             </button>
           </Link>
 
-            <button className="w-full bg-blue-600 py-3 rounded-xl text-white font-semibold" onClick={closeMenu}>
+            <button className="w-full bg-[#1B2A4A] py-3 rounded-xl text-white font-semibold" onClick={closeMenu}>
 
               Request Quote
 

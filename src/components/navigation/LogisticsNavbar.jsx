@@ -47,7 +47,7 @@ export default function Navbar() {
 
           <Link to="/" className="flex items-center gap-3 cursor-pointer">
             <img src={logo} alt="IONLOGISTICS" className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain mix-blend-multiply" />
-            <span className="text-3xl font-extrabold text-blue-600 tracking-tight">
+            <span className="text-3xl font-extrabold text-[#1B2A4A] tracking-tight">
               IONLOGISTICS
             </span>
           </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
               <a
                 key={item}
                 href="#"
-                className="text-gray-600 hover:text-blue-600 transition font-medium"
+                className="text-gray-600 hover:text-[#1B2A4A] transition font-medium"
               >
                 {item}
               </a>
@@ -72,23 +72,23 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center gap-6">
 
-            <button className="hover:text-blue-600 transition">
+            <button className="hover:text-[#1B2A4A] transition">
               <Search size={22} />
             </button>
 
-            <button className="hover:text-blue-600 transition">
+            <button className="hover:text-[#1B2A4A] transition">
               <Globe size={22} />
             </button>
 
             <div className="h-7 w-px bg-gray-300"></div>
 
-            <button className="border border-blue-500 text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition">
+            <button className="border border-[#1B2A4A] text-[#1B2A4A] px-6 py-3 rounded-xl font-semibold hover:bg-[#1B2A4A] hover:text-white transition">
 
               Track Shipment
 
             </button>
 
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg">
+            <button className="bg-[#1B2A4A] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#1B2A4A] transition shadow-lg">
 
               Request Quote
 
@@ -131,13 +131,13 @@ export default function Navbar() {
 
           <div className="p-6 space-y-4">
 
-            <button className="w-full border border-blue-600 py-3 rounded-xl text-blue-600 font-semibold">
+            <button className="w-full border border-[#1B2A4A] py-3 rounded-xl text-[#1B2A4A] font-semibold">
 
               Track Shipment
 
             </button>
 
-            <button className="w-full bg-blue-600 py-3 rounded-xl text-white font-semibold">
+            <button className="w-full bg-[#1B2A4A] py-3 rounded-xl text-white font-semibold">
 
               Request Quote
 

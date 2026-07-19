@@ -49,7 +49,7 @@ function FaqAccordionItem({ item, isOpen, onToggle }) {
         <ChevronDown
           size={18}
           className={`shrink-0 text-slate-400 transition-transform duration-300 ${
-            isOpen ? "rotate-180 text-blue-600" : ""
+            isOpen ? "rotate-180 text-[#1B2A4A]" : ""
           }`}
         />
       </button>
@@ -139,23 +139,23 @@ function FAQs() {
                 <div className="flex flex-col gap-3 p-6">
                   <a
                     href="#"
-                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-blue-300 hover:text-blue-600"
+                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-[#1B2A4A] hover:text-[#1B2A4A]"
                   >
-                    <MessageCircle size={17} className="text-blue-600" />
+                    <MessageCircle size={17} className="text-[#1B2A4A]" />
                     Start a live chat
                   </a>
                   <a
                     href="#"
-                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-blue-300 hover:text-blue-600"
+                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-[#1B2A4A] hover:text-[#1B2A4A]"
                   >
-                    <Mail size={17} className="text-blue-600" />
+                    <Mail size={17} className="text-[#1B2A4A]" />
                     support@ionlogistics.com
                   </a>
                   <a
                     href="#"
-                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-blue-300 hover:text-blue-600"
+                    className="flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-[#1B2A4A] hover:text-[#1B2A4A]"
                   >
-                    <Phone size={17} className="text-blue-600" />
+                    <Phone size={17} className="text-[#1B2A4A]" />
                     +1 800 555 0198
                   </a>
                 </div>

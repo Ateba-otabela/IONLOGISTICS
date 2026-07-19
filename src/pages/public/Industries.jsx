@@ -131,7 +131,7 @@ function Industries() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-md">
-                      <Icon size={18} className="text-blue-600" />
+                      <Icon size={18} className="text-[#1B2A4A]" />
                     </div>
                   </div>
                   <div className="flex flex-col gap-2 p-5">
@@ -158,7 +158,7 @@ function Industries() {
                 />
               </div>
               <div className="flex flex-col justify-center gap-4 p-8 sm:p-10">
-                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#1B2A4A]">
                   Spotlight industry
                 </span>
                 <h3 className="text-2xl font-bold text-slate-900">
@@ -172,7 +172,7 @@ function Industries() {
                 </p>
                 <a
                   href="#"
-                  className="inline-flex w-fit items-center gap-1.5 text-blue-600 font-semibold text-sm hover:gap-2.5 transition-all"
+                  className="inline-flex w-fit items-center gap-1.5 text-[#1B2A4A] font-semibold text-sm hover:gap-2.5 transition-all"
                 >
                   Learn more about pharma logistics
                   <ArrowRight size={15} />

@@ -82,7 +82,7 @@ function Contact() {
               <div className="divide-y divide-slate-100">
                 {CONTACT_DETAILS.map(({ icon: Icon, label, value }) => (
                   <div key={label} className="flex items-start gap-3 p-5">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#1B2A4A] text-white">
                       <Icon size={18} />
                     </div>
                     <div>
@@ -133,7 +133,7 @@ function Contact() {
                   <input
                     type="text"
                     placeholder="Jane Doe"
-                    className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-blue-400"
+                    className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-[#1B2A4A]"
                   />
                 </div>
                 <div>
@@ -143,7 +143,7 @@ function Contact() {
                   <input
                     type="email"
                     placeholder="jane@company.com"
-                    className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-blue-400"
+                    className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-[#1B2A4A]"
                   />
                 </div>
               </div>
@@ -155,7 +155,7 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Shipping quote request"
-                  className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-blue-400"
+                  className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-[#1B2A4A]"
                 />
               </div>
 
@@ -166,13 +166,13 @@ function Contact() {
                 <textarea
                   rows={5}
                   placeholder="Tell us a bit about what you need..."
-                  className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-blue-400 resize-none"
+                  className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm outline-none transition focus:border-[#1B2A4A] resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-700 shadow-sm"
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#1B2A4A] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1B2A4A] shadow-sm"
               >
                 Send message
                 <Send size={16} />

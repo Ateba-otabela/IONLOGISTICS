@@ -40,12 +40,12 @@ function TrackShipment() {
               alt="Cargo containers being tracked at a shipping terminal"
               className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-950/85 via-slate-950/65 to-blue-950/40" />
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-950/85 via-slate-950/65 to-[#1B2A4A]/40" />
 
             <div className="relative z-10 p-6 sm:p-8 lg:p-10">
               <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
                 <div className="max-w-2xl">
-                  <span className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-blue-200 backdrop-blur">
+                  <span className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-[#1B2A4A] backdrop-blur">
                     <Truck size={14} />
                     Shipment tracking
                   </span>
@@ -72,7 +72,7 @@ function TrackShipment() {
                         className="ml-2 w-full bg-transparent text-sm text-white placeholder:text-slate-500 outline-none"
                       />
                     </div>
-                    <button className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700">
+                    <button className="flex items-center justify-center gap-2 rounded-xl bg-[#1B2A4A] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#1B2A4A]">
                       Track
                       <ArrowRight size={16} />
                     </button>
@@ -88,7 +88,7 @@ function TrackShipment() {
                     className="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-blue-700 shadow-sm">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-[#1B2A4A] shadow-sm">
                         <Icon size={18} />
                       </div>
                       <div>
@@ -126,7 +126,7 @@ function TrackShipment() {
               <div className="mt-6">
                 <div className="h-2 w-full overflow-hidden rounded-full bg-slate-100">
                   <div
-                    className="h-full rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 transition-all"
+                    className="h-full rounded-full bg-gradient-to-r from-[#1B2A4A] to-emerald-500 transition-all"
                     style={{ width: `${progressPercent}%` }}
                   />
                 </div>

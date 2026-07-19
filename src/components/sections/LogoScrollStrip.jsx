@@ -4,10 +4,10 @@ import logo from "../../assets/images/logo.png";
 function MarkIonTrustGlobal() {
   return (
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-      <circle cx="15" cy="15" r="12" stroke="#0F2A4A" strokeWidth="2" />
+      <circle cx="15" cy="15" r="12" stroke="#1B2A4A" strokeWidth="2" />
       <path
         d="M3 15 H27 M15 3 C10 8 10 22 15 27 C20 22 20 8 15 3 Z"
-        stroke="#0F2A4A"
+        stroke="#1B2A4A"
         strokeWidth="1.4"
         fill="none"
       />
@@ -21,14 +21,14 @@ function MarkBuy2Africa() {
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
       <path
         d="M3 5 H7 L9.5 19 H23"
-        stroke="#0F2A4A"
+        stroke="#1B2A4A"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M9.5 19 L24 19 L26 9 H7.5"
-        stroke="#0F2A4A"
+        stroke="#1B2A4A"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -37,7 +37,7 @@ function MarkBuy2Africa() {
         d="M14 9 C14 9 16 11 16 14 C16 17 13 18 13 21 C13 18 11 17 11 14 C11 11 14 9 14 9 Z"
         fill="#2F8F4E"
       />
-      <circle cx="11.5" cy="24" r="1.7" fill="#0F2A4A" />
+      <circle cx="11.5" cy="24" r="1.7" fill="#1B2A4A" />
       <circle cx="21.5" cy="24" r="1.7" fill="#E8792A" />
     </svg>
   );
@@ -58,13 +58,13 @@ function MarkIonProperties() {
       />
       <path
         d="M11 26 V6 L19 3 V26"
-        stroke="#0F2A4A"
+        stroke="#1B2A4A"
         strokeWidth="2"
         strokeLinejoin="round"
       />
-      <path d="M3 26 H27" stroke="#0F2A4A" strokeWidth="2" strokeLinecap="round" />
-      <rect x="13.5" y="9" width="2.5" height="3" fill="#0F2A4A" />
-      <rect x="13.5" y="14" width="2.5" height="3" fill="#0F2A4A" />
+      <path d="M3 26 H27" stroke="#1B2A4A" strokeWidth="2" strokeLinecap="round" />
+      <rect x="13.5" y="9" width="2.5" height="3" fill="#1B2A4A" />
+      <rect x="13.5" y="14" width="2.5" height="3" fill="#1B2A4A" />
     </svg>
   );
 }
@@ -74,7 +74,7 @@ function MarkIonVentures() {
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
       <path
         d="M4 8 L11 22 L15 12"
-        stroke="#0F2A4A"
+        stroke="#1B2A4A"
         strokeWidth="2.4"
         strokeLinecap="round"
         strokeLinejoin="round"

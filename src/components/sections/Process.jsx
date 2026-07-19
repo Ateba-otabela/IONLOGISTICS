@@ -108,10 +108,10 @@ export default function ProcessSection() {
             return (
               <div
                 key={i}
-                className="border border-blue-200 rounded-2xl p-8 bg-white"
+                className="border border-[#1B2A4A] rounded-2xl p-8 bg-white"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-[#1B2A4A] flex items-center justify-center flex-shrink-0">
                     <Icon className="w-5 h-5 text-white" />
                   </div>
                   <h3 className="text-xl md:text-2xl font-bold text-gray-900">
@@ -123,7 +123,7 @@ export default function ProcessSection() {
                 </p>
                 <a
                   href="#"
-                  className="text-blue-600 font-medium hover:underline"
+                  className="text-[#1B2A4A] font-medium hover:underline"
                 >
                   View more
                 </a>

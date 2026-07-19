@@ -44,7 +44,7 @@ export default function Stats() {
 
         <div className="text-center mb-16">
 
-          <span className="text-blue-600 font-semibold uppercase tracking-widest">
+          <span className="text-[#1B2A4A] font-semibold uppercase tracking-widest">
             Our Achievements
           </span>
 
@@ -69,13 +69,13 @@ export default function Stats() {
                 key={index}
                 className="bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 border border-gray-100 hover:-translate-y-2"
               >
-                <div className="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center mb-6">
+                <div className="w-16 h-16 rounded-2xl bg-[#1B2A4A] flex items-center justify-center mb-6">
 
-                  <Icon className="text-blue-600" size={32} />
+                  <Icon className="text-white" />
 
                 </div>
 
-                <h3 className="text-5xl font-black text-blue-600">
+                <h3 className="text-5xl font-black text-[#1B2A4A]">
 
                   {item.value}
 

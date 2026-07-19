@@ -91,7 +91,7 @@ export default function ServicesSection() {
           {services.map((service, i) => (
             <article
               key={i}
-              className="snap-start flex-shrink-0 w-full md:w-[calc((100%-3rem)/3)] bg-blue-50/60 border border-blue-100 rounded-2xl overflow-hidden"
+              className="snap-start flex-shrink-0 w-full md:w-[calc((100%-3rem)/3)] bg-white border border-[#1B2A4A]/20 rounded-2xl overflow-hidden"
             >
               <div className="p-3">
                 <img
@@ -109,7 +109,7 @@ export default function ServicesSection() {
                 </p>
                 <a
                   href="#"
-                  className="text-blue-600 font-medium hover:underline"
+                  className="text-[#1B2A4A] font-medium hover:underline"
                 >
                   View more
                 </a>
@@ -126,7 +126,7 @@ export default function ServicesSection() {
               onClick={() => scrollToPage(i)}
               aria-label={`Go to page ${i + 1}`}
               className={`h-2.5 rounded-full transition-all duration-300 ${
-                i === activePage ? "w-8 bg-blue-600" : "w-2.5 bg-gray-300"
+                i === activePage ? "w-8 bg-[#1B2A4A]" : "w-2.5 bg-gray-300"
               }`}
             />
           ))}

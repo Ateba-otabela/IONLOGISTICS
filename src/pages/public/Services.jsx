@@ -49,7 +49,7 @@ export default function PartnershipSection() {
 
         {/* Text content */}
         <div>
-          <span className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">
+          <span className="text-sm font-semibold uppercase tracking-[0.2em] text-[#1B2A4A]">
             Why businesses choose us
           </span>
           <h2 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
@@ -65,7 +65,7 @@ export default function PartnershipSection() {
           <ul className="mt-8 space-y-5">
             {HIGHLIGHTS.map(({ icon: Icon, text }) => (
               <li key={text} className="flex items-start gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#1B2A4A] text-white">
                   <Icon size={20} />
                 </div>
                 <p className="text-slate-700 leading-relaxed pt-1.5">{text}</p>
@@ -74,10 +74,10 @@ export default function PartnershipSection() {
           </ul>
 
           <div className="mt-9 flex flex-col sm:flex-row gap-4">
-            <button className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold px-7 py-3.5 rounded-full hover:bg-blue-700 transition shadow-sm">
+            <button className="inline-flex items-center justify-center gap-2 bg-[#1B2A4A] text-white font-semibold px-7 py-3.5 rounded-full hover:bg-[#1B2A4A] transition shadow-sm">
               Talk to our team
             </button>
-            <button className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-7 py-3.5 rounded-full hover:border-blue-300 hover:text-blue-600 transition">
+            <button className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-7 py-3.5 rounded-full hover:border-[#1B2A4A] hover:text-[#1B2A4A] transition">
               <CheckCircle2 size={18} />
               See how it works
             </button>

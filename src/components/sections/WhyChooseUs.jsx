@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
 
             <div className="absolute -bottom-10 left-8 bg-white rounded-3xl shadow-xl p-6 w-72">
 
-              <div className="text-5xl font-black text-blue-600">
+              <div className="text-5xl font-black text-[#1B2A4A]">
 
                 25+
 
@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
 
           <div>
 
-            <span className="uppercase tracking-widest text-blue-600 font-semibold">
+            <span className="uppercase tracking-widest text-[#1B2A4A] font-semibold">
               Why Choose Us
             </span>
 
@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
 
               <div className="flex gap-4">
 
-                <ShieldCheck className="text-blue-600 mt-1"/>
+                <ShieldCheck className="text-[#1B2A4A] mt-1"/>
 
                 <div>
 
@@ -99,7 +99,7 @@ export default function WhyChooseUs() {
 
               <div className="flex gap-4">
 
-                <Globe2 className="text-blue-600 mt-1"/>
+                <Globe2 className="text-[#1B2A4A] mt-1"/>
 
                 <div>
 
@@ -121,7 +121,7 @@ export default function WhyChooseUs() {
 
               <div className="flex gap-4">
 
-                <Clock3 className="text-blue-600 mt-1"/>
+                <Clock3 className="text-[#1B2A4A] mt-1"/>
 
                 <div>
 
@@ -143,7 +143,7 @@ export default function WhyChooseUs() {
 
               <div className="flex gap-4">
 
-                <PackageCheck className="text-blue-600 mt-1"/>
+                <PackageCheck className="text-[#1B2A4A] mt-1"/>
 
                 <div>
 
@@ -200,7 +200,7 @@ export default function WhyChooseUs() {
 
             {/* BUTTON */}
 
-            <button className="mt-12 bg-blue-600 hover:bg-blue-700 transition text-white px-8 py-4 rounded-xl flex items-center gap-3 shadow-xl">
+            <button className="mt-12 bg-[#1B2A4A] hover:bg-[#1B2A4A] transition text-white px-8 py-4 rounded-xl flex items-center gap-3 shadow-xl">
 
               Learn More
 

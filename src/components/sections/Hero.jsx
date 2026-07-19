@@ -37,74 +37,68 @@ export default function LogisticsHeroCarousel() {
 
   return (
     <>
-  <section className="relative mt-24 w-full overflow-hidden">
-      {/* Background image */}
-      <img
-        src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&h=1080&fit=crop"
-        alt="Logistics warehouse background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      {/* Overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/60 to-slate-950/40" />
-
-      <div className="relative z-10">
-      <div
-        className="flex transition-transform duration-1000 ease-in-out"
-        style={{ transform: `translateX(-${index * 100}%)` }}
-      >
+      <section className="relative mt-24 w-full min-h-[520px] sm:min-h-[560px] md:min-h-[620px] lg:min-h-[680px] overflow-hidden">
+        {/* Background images - crossfade per slide */}
         {slides.map((slide, i) => (
-          <div
+          <img
             key={i}
-            className="w-full flex-shrink-0 grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24"
-          >
-            <div>
-              <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-                {slide.heading}
-              </h1>
-              <p className="text-lg text-slate-200 mb-8 max-w-lg">
-                {slide.text}
-              </p>
-              <button className="bg-blue-600 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-blue-700 transition shadow-sm">
-                {slide.cta}
-              </button>
-            </div>
-
-            <div className="relative flex justify-center items-center h-[320px] sm:h-[380px] md:h-[420px] overflow-hidden rounded-3xl">
-              <div className="absolute top-0 left-0 md:left-8 bg-white border border-gray-200 rounded-xl shadow-lg px-5 py-4 max-w-[260px] z-10">
-                <p className="text-sm text-gray-700 font-semibold">
-                  Discover and save with the best deals
-                </p>
-                <p className="text-sm text-gray-500 mt-1">
-                  on domestic and international shipping
-                </p>
-              </div>
-              <img
-                src={slide.image}
-                alt={slide.heading}
-                className="w-full h-full object-cover rounded-3xl shadow-xl"
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Dots */}
-      <div className="flex justify-center gap-2 pb-8">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setIndex(i)}
-            aria-label={`Go to slide ${i + 1}`}
-            className={`h-2.5 rounded-full transition-all duration-300 ${
-              i === index ? "w-8 bg-blue-600" : "w-2.5 bg-white/50"
+            src={slide.image}
+            alt=""
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
+              i === index ? "opacity-100" : "opacity-0"
             }`}
           />
         ))}
-      </div>
-      </div>
-    </section>
-    <LogoScrollStrip className="md:mt-32" />
-    
+        {/* Overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/60 to-slate-950/40" />
+
+        <div className="relative z-10 flex h-full min-h-[520px] sm:min-h-[560px] md:min-h-[620px] lg:min-h-[680px] flex-col justify-center">
+          <div className="overflow-hidden w-full">
+            <div
+              className="flex transition-transform duration-1000 ease-in-out"
+              style={{
+                width: `${slides.length * 100}%`,
+                transform: `translateX(-${index * (100 / slides.length)}%)`,
+              }}
+            >
+              {slides.map((slide, i) => (
+                <div
+                  key={i}
+                  className="flex-shrink-0 px-4 sm:px-6 md:px-10 py-10 sm:py-14 md:py-20"
+                  style={{ width: `${100 / slides.length}%` }}
+                >
+                  <div className="max-w-3xl mx-auto text-center flex flex-col items-center">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 sm:mb-6">
+                      {slide.heading}
+                    </h1>
+                    <p className="text-base sm:text-lg text-slate-200 mb-6 sm:mb-8 max-w-md sm:max-w-lg">
+                      {slide.text}
+                    </p>
+                    <button className="bg-[#1B2A4A] text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 text-sm sm:text-base rounded-full hover:bg-[#1B2A4A] transition shadow-sm">
+                      {slide.cta}
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Dots */}
+          <div className="flex justify-center gap-2 pt-8">
+            {slides.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setIndex(i)}
+                aria-label={`Go to slide ${i + 1}`}
+                className={`h-2.5 rounded-full transition-all duration-300 ${
+                  i === index ? "w-8 bg-[#1B2A4A]" : "w-2.5 bg-white/50"
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      <LogoScrollStrip className="md:mt-32" />
     </>
   );
 }
