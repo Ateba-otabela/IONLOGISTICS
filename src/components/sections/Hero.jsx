@@ -74,7 +74,7 @@ export default function LogisticsHeroCarousel() {
                     <p className="text-base sm:text-lg text-slate-200 mb-6 sm:mb-8 max-w-md sm:max-w-lg">
                       {slide.text}
                     </p>
-                    <button className="bg-[#1B2A4A] text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 text-sm sm:text-base rounded-full hover:bg-[#1B2A4A] transition shadow-sm">
+                    <button className="mt-4 bg-[#1B2A4A] text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 text-sm sm:text-base rounded-full hover:bg-[#1B2A4A] transition shadow-sm">
                       {slide.cta}
                     </button>
                   </div>
